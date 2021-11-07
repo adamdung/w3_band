@@ -116,28 +116,52 @@ html {
   padding-top: 50%;
   background: url("/assets/img/slider/slider1.jpg") top center / cover no-repeat;
   position: relative;
-  
 }
 
 #slider .text-content {
   position: absolute;
   bottom: 47px;
- width: 100%;
+  width: 100%;
   text-align: center;
 }
 #slider .text-heading {
-    font-size: 24px;
-    font-weight: 500;
+  font-size: 24px;
+  font-weight: 500;
 }
 #slider .text-description {
-    margin-top: 25px;
-    font-size: 15px;
+  margin-top: 25px;
+  font-size: 15px;
 }
 
 #content {
-  
 }
 
- 
+#content .content-section {
+  padding: 64px 0;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+#content .section-heading {
+  letter-spacing: 4px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10 px 0;
+  font-size: 30px;
+}
+#content .section-sub-heading {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  margin: 25px 0 25px 0;
+  filter: contrast(5.74%);
+}
+#content .about-text {
+  font-size: 15px;
+  font-family: "Lato", sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+}
 #footer {
 }
