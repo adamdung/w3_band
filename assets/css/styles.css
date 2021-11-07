@@ -163,5 +163,9 @@ html {
   text-align: justify;
   line-height: 1.5;
 }
+
+#content .member-item {
+  float: left;
+}
 #footer {
 }
